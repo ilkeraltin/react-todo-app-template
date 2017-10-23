@@ -6,7 +6,7 @@ import Options from './Options';
 import Header from './Header';
 import OptionModal from './OptionModal';
 
-class IndecisionApp extends React.Component {
+class TodoApp extends React.Component {
     state = {
         options: [],
         selectedOption: undefined
@@ -97,8 +97,8 @@ class IndecisionApp extends React.Component {
     }
 }
 
-IndecisionApp.defaultProps = {
+TodoApp.defaultProps = {
     options: []
 }
 
-export default IndecisionApp;
+export default TodoApp;

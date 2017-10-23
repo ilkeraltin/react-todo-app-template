@@ -1,7 +1,7 @@
 console.log('App.js is running!');
 
 const app = {
-  title: 'Indecision App',
+  title: 'Todo App',
   subtitle: 'Put your life in the hands of a computer',
   options: []
 };
